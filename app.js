@@ -132,7 +132,7 @@ function getTodos() {
     });
 }
 
-functon removeLocalTodos(todo){
+function removeLocalTodos(todo){
     // CHECK --- HEY Do i already have thing in there?
     let todos;
     if (localStorage.getItem('todos') === null) {
